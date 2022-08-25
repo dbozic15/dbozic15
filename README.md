@@ -1,0 +1,7 @@
+- 👋 Hi, I’m Damir
+- 👀 I’m interested in JavaScript
+- 🌱 I’m currently learning JaveScript
+- 📫 How to reach me 
+- https://www.facebook.com/damir.gamer
+- skype: damir.bozic1
+- email: damir.damir2011@gmail.com
