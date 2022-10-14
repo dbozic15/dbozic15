@@ -14,4 +14,4 @@ function solve(age) {
     }
 }
 
-solve(-1)
+solve(2)
