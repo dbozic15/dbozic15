@@ -1,18 +1,29 @@
 function solve(arr) {
-    let newArr = 0;
-    for (let i = 0; i < arr.length; i++) {
-        arr[i] = Number(arr[i]);
-        // console.log(arr);
+    let resultArray = [];
+    let sumArr = 0;
+    let sumResultArr = 0;
+    let arrLength = arr.length
 
-        if (arr[i] % 2 === 0) {
-            arr.push(arr[i] + i);
-            console.log(arr)
+    for (let i = 0; i < arrLength; i++) {
+
+        let currentNum = arr[i];
+
+        let even = (currentNum + i);
+        let odd = (currentNum - i);
+
+        if (currentNum % 2 === 0) {
+            resultArray.push(even);
+
         } else {
-            arr.push(arr[i] - i)
+            resultArray.push(odd);
         }
-        console.log(arr)
-
+        sumArr += currentNum;
+        sumResultArr += resultArray[i];
     }
+
+    console.log(resultArray);
+    console.log(sumArr);
+    console.log(sumResultArr);
 
 }
 
